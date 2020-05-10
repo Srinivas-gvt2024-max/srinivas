@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>cafe</title>
+	<link rel ="stylesheet" type="text/css" href="projectstyle.css">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<header>
+		<nav>
+				<div class="row clearfix">
+					<img src="logo.png" class="logo">
+					
+					<ul class="main-nav" id="check">
+						<li><a href="#"> cake delivery </a></li>
+						<li><a href="#"> how to order </a></li>
+						<li><a href="#"> check more </a></li>
+						<li><a href="#"> login </a></li>
+					</ul>
+					<a href ="#" class="mobile-icon"  onclick="slideshow()"><i class="fa fa-bars"></i> </a>
+				</div >
+		</nav>
+		
+		<div class="main-content">
+		<h1>welcome to the <span class="colorchange"> srinivas cafe </span>. <br>
+			house of cake lover oo yes!!!.</h1>
+			<a href="#" class="button btn-full">click to order </a>
+			<a href="#" class="button btn-nav">show me more </a>
+		</div>		
+	</header>
+	<script type="text/javascript"> 
+
+	function slideshow(){
+		var x= document.getElementById('check');
+		if(x.style.display==="none"){
+			x.style.display="block";
+		}
+		else{
+			x.style.display="none";
+		}
+	}
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
